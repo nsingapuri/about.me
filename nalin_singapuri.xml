@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="./resume.xsl"?>
+
+<resume>
+    <name>Nalin Singapuri</name>
+    <email>nalin.s@gmail.com</email>
+    <phone>562.537.5353</phone>
+    <website><a href="http://nalin.singapuri.com">http://nalin.singapuri.com</a></website>
+    <github><a href="https://github.com/nsingapuri">http://github.com/nsingapuri</a></github>
+    <address>
+        <street>2510 Club Creek Blvd.</street>
+        <city>Garland</city>
+        <state>TX</state>
+        <zip>75043</zip>
+    </address>
+
+    <objectives>
+        <objective>
+            Making things described as <em>groundbreaking</em>, <em>challenging</em>, and <em>awesome</em>; having <em>fun</em>; Working with and leading <em>really smart people</em> in an <em>elegant codebase</em>.
+        </objective>
+    </objectives>
+
+    <skills>
+        <group name="Software Engineering">
+            <skill name="PHP">
+                <level>9</level>
+                <proficiency>Zend</proficiency>
+                <proficiency>Symfony</proficiency>
+            </skill>
+            <skill name="Java">
+                <level>4</level>
+                <proficiency>GWT</proficiency>
+            </skill>
+            <skill name="C/C++">
+                <level>3</level>
+            </skill>
+            <skill name="Python">
+                <level>2</level>
+            </skill>
+            <skill name="Perl">
+                <level>2</level>
+            </skill>
+            <skill name="Bash">
+                <level>6</level>
+            </skill>
+            <skill name="Lisp/Scheme">
+                <level>2</level>
+            </skill>
+        </group>
+        <group name="System Administration">
+            <skill name="Linux">
+                <level>7</level>
+                <proficiency>Ubuntu / Debian</proficiency>
+                <proficiency>Gentoo</proficiency>
+                <proficiency>Red Hat / CentOS</proficiency>
+            </skill>
+            <skill name="OSX">
+                <level>5</level>
+            </skill>
+            <skill name="Daemons">
+                <level>5</level>
+                <proficiency>Apache</proficiency>
+                <proficiency>Tomcat</proficiency>
+                <proficiency>Qmail</proficiency>
+                <proficiency>BIND</proficiency>
+                <proficiency>Squid</proficiency>
+            </skill>
+        </group>
+        <group name="Databases">
+            <skill name="Relactional">
+                <level>7</level>
+                <proficiency>Oracle</proficiency>
+                <proficiency>PostgreSQL</proficiency>
+                <proficiency>MySQL</proficiency>
+                <proficiency>MSSQL</proficiency>
+            </skill>
+            <skill name="NoSQL">
+                <level>2</level>
+                <proficiency>MongoDB</proficiency>
+                <proficiency>HBase</proficiency>
+            </skill>
+        </group>
+        <group name="Web and Web Services">
+            <skill name="XHTML">
+                <level>8</level>
+            </skill>
+            <skill name="CSS">
+                <level>8</level>
+            </skill>
+            <skill name="Javascript">
+                <level>5</level>
+                <proficiency>JQuery</proficiency>
+                <proficiency>YUI</proficiency>
+            </skill>
+            <skill name="XML/XSLT/XSD">
+                <level>6</level>
+            </skill>
+            <skill name="Web Services">
+                <level>6</level>
+                <proficiency>SOAP</proficiency>
+                <proficiency>REST</proficiency>
+            </skill>
+        </group>
+        <group name="Architecture">
+            <skill name="MVC">
+                <level>9</level>
+            </skill>
+            <skill name="Algorithms">
+                <level>8</level>
+            </skill>
+            <skill name="Data Structures">
+                <level>6</level>
+            </skill>
+            <skill name="Design Patterns">
+                <level>4</level>
+            </skill>
+        </group>
+    </skills>
+
+    <interests>
+        <interest>Learning something new everyday</interest>
+        <interest>Throwing ceramics</interest>
+        <interest>Suitably large primes</interest>
+        <interest>NPR</interest>
+        <interest>Travel</interest>
+        <interest>M.C. Escher</interest>
+        <interest>r/dataisbeautiful</interest>
+        <interest>Shabu Shabu</interest>
+        <interest>Happy Hour</interest>
+        <interest>Linus Torvalds</interest>
+        <interest>Nasdaq</interest>
+        <interest>Slashdot</interest>
+        <interest>Mustache wax</interest>
+    </interests>
+
+    <experiences>
+        <experience>
+            <employer>
+                <name>SoftLayer / IBM</name>
+                <address>
+                    <street>4849 Alpha Rd</street>
+                    <city>Dallas</city>
+                    <state>TX</state>
+                    <zip>75240</zip>
+                </address>
+            </employer>
+            <startDate>2011-04-18</startDate>
+            <endDate/>
+            <jobDescription>
+                <title>Software Engineer III - Systems - Infrastructure - HIOS [Hardware Inventory Operations Software]</title>
+                <responsibilities>
+                    <responsibility summary="Reduced">
+                        server provision times by 78% (<a href="https://www.softlayer.com/press/release/2562/softlayer-introduces-new-hourly-bare-metal-servers-deployed-in-minutes">Press Release</a>) - Development Champion, Technical Lead.
+                    </responsibility>
+                    <responsibility summary="Built">
+                        new system to track shipments of hardware, components, and unsterilized inventory - Technical Lead.
+                    </responsibility>
+                    <responsibility summary="Launched">
+                        10 datacenters in 2014 - Technical sign off for HIOS owned systems.
+                    </responsibility>
+                </responsibilities>
+            </jobDescription>
+        </experience>
+        <experience>
+            <employer>
+                <name>SpeedFC</name>
+                <address>
+                    <city>Garland</city>
+                    <state>TX</state>
+                </address>
+            </employer>
+            <startDate>2009-01-01</startDate>
+            <endDate>2011-04-15</endDate>
+            <jobDescription>
+                <title>Senior PHP Developer</title>
+                <responsibilities>
+                    <responsibility summary="Onboarded">
+                        Spencers Gifts, Dress Barn, Anchor Blue, and Foundry - Technical Lead, Data Integrations.
+                    </responsibility>
+                    <responsibility summary="Created">
+                        dynamic pick scheduling system - Technical Lead.
+                    </responsibility>
+                </responsibilities>
+            </jobDescription>
+        </experience>
+        <experience>
+            <employer>
+                <name>NextProdigy Inc</name>
+                <address>
+                    <city>Dallas</city>
+                    <state>TX</state>
+                </address>
+            </employer>
+            <startDate>2007-01-01</startDate>
+            <endDate>2009-01-01</endDate>
+            <jobDescription>
+                <title>CTO / CoFounder</title>
+                <responsibilities>
+                    <responsibility summary="Built search engine">
+                         for residential property data.
+                    </responsibility>
+                    <responsibility summary="Architected">
+                         interactive map for viewing and searching MLS listings.
+                    </responsibility>
+                    <responsibility summary="Integrated">
+                         3rd party data feeds (MLS Data, Gelocation, Tiger/Line Files, Census, Countys, Schools).
+                    </responsibility>
+                </responsibilities>
+            </jobDescription>
+        </experience>
+        <experience>
+            <employer>
+                <name>Native Sun Communications</name>
+                <address>
+                    <city>Long Beach</city>
+                    <state>CA</state>
+                </address>
+            </employer>
+            <startDate>2002-01-01</startDate>
+            <endDate>2007-01-01</endDate>
+            <jobDescription>
+                <title>Internet Technology / Internet Marketing Manager</title>
+                <responsibilities>
+                    <responsibility summary="Oversight">
+                        of internet technology and marketing; these included creation and ongoing maintenance of website and LAMP servers, web marketing, print marketing, and general IT support.
+                    </responsibility>
+                    <responsibility summary="Topped Google">
+                        (organic results) for search terms such as "telephone system" and "business phone".
+                    </responsibility>
+                    <responsibility summary="Employee of the month">
+                        September 2006.
+                    </responsibility>
+                </responsibilities>
+            </jobDescription>
+        </experience>
+        <experience>
+            <employer>
+                <name>Independent Contract</name>
+                <address>
+                    <city>Dallas</city>
+                    <state>TX</state>
+                </address>
+            </employer>
+            <startDate>2001-01-01</startDate>
+            <jobDescription>
+                <responsibilities>
+                    <responsibility summary="Web design and hosting"><br/>
+                        Museum of Jewelry (San Francisco, CA)<br/>
+                        AAA Surety (Dallas, TX)<br/>
+                    </responsibility>
+                    <responsibility summary="Development"><br/>
+                        Innovative Business Concepts (Long Beach, CA)<br/>
+                        Irio (Dallas, TX)
+                    </responsibility>
+                </responsibilities>
+            </jobDescription>
+        </experience>
+    </experiences>
+
+    <education>
+        <educator>
+            <name>University of Denver</name>
+            <address>
+                <city>Denver</city>
+                <state>CO</state>
+            </address>
+        </educator>
+        <startDate>1997-01-01</startDate>
+        <endDate>2002-01-01</endDate>
+        <degrees>
+            <major>B.S. Computer Science</major>
+            <minor>A.S. Mathematics</minor>
+            <minor>A.F.A. Fine Art</minor>
+        </degrees>
+    </education>
+</resume>
