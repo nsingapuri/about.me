@@ -16,34 +16,37 @@
 
     <objectives>
         <objective>
-            Making things described as <em>groundbreaking</em>, <em>challenging</em>, and <em>awesome</em>; having <em>fun</em>; Working with and leading <em>really smart people</em> in an <em>elegant codebase</em>.
+            Making things described as <em>groundbreaking</em>, <em>challenging</em>, and <em>awesome</em>; having <em>fun</em>; Leading <em>really smart people</em> around an <em>elegant codebase</em>.
         </objective>
     </objectives>
 
     <skills>
         <group name="Software Engineering">
-            <skill name="PHP">
-                <level>9</level>
-                <proficiency>Zend</proficiency>
-                <proficiency>Symfony</proficiency>
+            <skill name="Bash">
+                <level>6</level>
+            </skill>
+            <skill name="C/C++">
+                <level>3</level>
+            </skill>
+            <skill name="Go">
+                <level>2</level>
             </skill>
             <skill name="Java">
                 <level>4</level>
                 <proficiency>GWT</proficiency>
             </skill>
-            <skill name="C/C++">
-                <level>3</level>
-            </skill>
-            <skill name="Python">
+            <skill name="Lisp/Scheme">
                 <level>2</level>
             </skill>
             <skill name="Perl">
                 <level>2</level>
             </skill>
-            <skill name="Bash">
-                <level>6</level>
+            <skill name="PHP">
+                <level>9</level>
+                <proficiency>Zend</proficiency>
+                <proficiency>Symfony</proficiency>
             </skill>
-            <skill name="Lisp/Scheme">
+            <skill name="Python">
                 <level>2</level>
             </skill>
         </group>
@@ -54,10 +57,10 @@
                 <proficiency>Gentoo</proficiency>
                 <proficiency>Red Hat / CentOS</proficiency>
             </skill>
-            <skill name="OSX">
+            <skill name="OS X">
                 <level>5</level>
             </skill>
-            <skill name="Daemons">
+            <skill name="Services">
                 <level>5</level>
                 <proficiency>Apache</proficiency>
                 <proficiency>Tomcat</proficiency>
@@ -67,7 +70,7 @@
             </skill>
         </group>
         <group name="Databases">
-            <skill name="Relactional">
+            <skill name="Relational">
                 <level>7</level>
                 <proficiency>Oracle</proficiency>
                 <proficiency>PostgreSQL</proficiency>
@@ -80,7 +83,7 @@
                 <proficiency>HBase</proficiency>
             </skill>
         </group>
-        <group name="Web and Web Services">
+        <group name="Web">
             <skill name="XHTML">
                 <level>8</level>
             </skill>
@@ -102,13 +105,16 @@
             </skill>
         </group>
         <group name="Architecture">
-            <skill name="MVC">
-                <level>9</level>
-            </skill>
             <skill name="Algorithms">
                 <level>8</level>
             </skill>
             <skill name="Data Structures">
+                <level>6</level>
+            </skill>
+            <skill name="MVC">
+                <level>8</level>
+            </skill>
+            <skill name="ORM">
                 <level>6</level>
             </skill>
             <skill name="Design Patterns">
@@ -119,13 +125,13 @@
 
     <interests>
         <interest>Learning something new everyday</interest>
-        <interest>Throwing ceramics</interest>
         <interest>Suitably large primes</interest>
         <interest>NPR</interest>
         <interest>Travel</interest>
         <interest>M.C. Escher</interest>
         <interest>r/dataisbeautiful</interest>
         <interest>Shabu Shabu</interest>
+        <interest>Throwing ceramics</interest>
         <interest>Happy Hour</interest>
         <interest>Linus Torvalds</interest>
         <interest>Nasdaq</interest>
@@ -147,13 +153,13 @@
             <startDate>2011-04-18</startDate>
             <endDate/>
             <jobDescription>
-                <title>Software Engineer III - Systems - Infrastructure - HIOS [Hardware Inventory Operations Software]</title>
+                <title>Software Engineer III - Systems - Infrastructure - Hardware Inventory Operations Software [HIOS]</title>
                 <responsibilities>
                     <responsibility summary="Reduced">
                         server provision times by 78% (<a href="https://www.softlayer.com/press/release/2562/softlayer-introduces-new-hourly-bare-metal-servers-deployed-in-minutes">Press Release</a>) - Development Champion, Technical Lead.
                     </responsibility>
                     <responsibility summary="Built">
-                        new system to track shipments of hardware, components, and unsterilized inventory - Technical Lead.
+                        system to track shipments of hardware, components, and unsterilized inventory - Technical Lead.
                     </responsibility>
                     <responsibility summary="Launched">
                         10 datacenters in 2014 - Technical sign off for HIOS owned systems.
@@ -202,8 +208,8 @@
                     <responsibility summary="Architected">
                          interactive map for viewing and searching MLS listings.
                     </responsibility>
-                    <responsibility summary="Integrated">
-                         3rd party data feeds (MLS Data, Gelocation, Tiger/Line Files, Census, Countys, Schools).
+                    <responsibility summary="Lead / Managed">
+                         7 developers.
                     </responsibility>
                 </responsibilities>
             </jobDescription>
@@ -221,11 +227,11 @@
             <jobDescription>
                 <title>Internet Technology / Internet Marketing Manager</title>
                 <responsibilities>
-                    <responsibility summary="Oversight">
-                        of internet technology and marketing; these included creation and ongoing maintenance of website and LAMP servers, web marketing, print marketing, and general IT support.
+                    <responsibility summary="Oversaw">
+                        internet technology and marketing; programming, server administration, web marketing, print marketing, and general IT support.
                     </responsibility>
-                    <responsibility summary="Topped Google">
-                        (organic results) for search terms such as "telephone system" and "business phone".
+                    <responsibility summary="Increased">
+                        website sales from $1.2M to $4M per year.
                     </responsibility>
                     <responsibility summary="Employee of the month">
                         September 2006.
@@ -236,10 +242,6 @@
         <experience>
             <employer>
                 <name>Independent Contract</name>
-                <address>
-                    <city>Dallas</city>
-                    <state>TX</state>
-                </address>
             </employer>
             <startDate>2001-01-01</startDate>
             <jobDescription>

@@ -7,40 +7,40 @@
     <xsl:template match="/resume">
         <html>
             <head>
-                <title><xsl:value-of select="name"/> - R&#233;sum&#233;</title>
+                <title><xsl:value-of select="name"/> - Resume</title>
                 <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"/>
                 <link rel="stylesheet" type="text/css" href="assets/contemporary.css"/>
             </head>
             <body>
                 <div id="header">
-                    <h1 id="title">R&#233;sum&#233;</h1>
+                    <h1 id="title">Resume</h1>
                     <h1 id="candidate"><xsl:value-of select="name"/></h1>
 
                     <div id="contact">
-                        <xsl:value-of select="phone"/><br/>
-                        <xsl:value-of select="email"/>
-                    </div>
-
-                    <div id="address">
-                        <xsl:value-of select="address/street"/><br/>
-                        <xsl:value-of select="address/city"/>, <xsl:value-of select="address/state"/>. <xsl:value-of select="address/zip"/>
+                        <xsl:copy-of select="phone"/><br/>
+                        <xsl:copy-of select="email"/>
                     </div>
 
                     <div id="links">
                         <xsl:copy-of select="github"/><br/>
                         <xsl:copy-of select="website"/>
                     </div>
+
+                    <div id="address">
+                        <xsl:value-of select="address/street"/>
+                        <xsl:value-of select="address/city"/>, <xsl:value-of select="address/state"/>. <xsl:value-of select="address/zip"/>
+                    </div>
+
                 </div>
                 <div id="content">
                     <div id="objective" class="section">
-                        <h2>Objective</h2>
+                        <h2><span>Objective</span></h2>
                         <xsl:for-each select="objectives/objective">
                             <p><xsl:call-template name="escapeHtml"/></p>
                         </xsl:for-each>
                     </div>
-
                     <div id="skills" class="section inline_list">
-                        <h2>Skills</h2>
+                        <h2><span>Skills</span></h2>
                         <ul>
                             <xsl:for-each select="skills/group">
                                 <xsl:call-template name="unsortedListRecursive"/>
@@ -49,12 +49,15 @@
                     </div>
 
                     <div id="experience" class="section">
-                        <h2>Experience</h2>
+                        <h2><span>Experience</span></h2>
                         <xsl:for-each select="experiences/experience">
                             <div>
                                 <div class="header">
                                     <h3>
                                         <xsl:value-of select="employer/name"/>
+                                        <xsl:if test="employer/address">
+                                            <span class="location"><xsl:value-of select="employer/address/city"/>, <xsl:value-of select="employer/address/state"/></span>
+                                        </xsl:if>
                                     </h3>
                                     <h4>
                                         <xsl:value-of select="substring(startDate,1,4)"/> -
@@ -162,7 +165,7 @@
                     </div>
 
                     <div id="education" class="section inline_list">
-                        <h2>Education</h2>
+                        <h2><span>Education</span></h2>
                         <xsl:for-each select="education">
                             <div>
                                 <h3>
@@ -178,7 +181,7 @@
                     </div>
 
                     <div id="interests" class="section inline_list">
-                        <h2>Interests</h2>
+                        <h2><span>Interests</span></h2>
                         <ul>
                             <xsl:for-each select="interests/interest">
                                 <xsl:call-template name="unsortedListRecursive"/>
@@ -186,17 +189,16 @@
                         </ul>
                     </div>
                 </div>
-
                 <br/>
                 <div id="footer">
-                    <xsl:value-of select="name"/> R&#233;sum&#233;: <xsl:value-of select="email"/> | <xsl:value-of select="phone"/>
+                    <xsl:value-of select="name"/> Resume: <xsl:value-of select="email"/> | <xsl:value-of select="phone"/>
                 </div>
                 <br/>
             </body>
         </html>
     </xsl:template>
 
-    <xsl:template match="*" name="escapeHtml">
+    <xsl:template name="escapeHtml">
         <xsl:apply-templates/>
     </xsl:template>
 
@@ -208,7 +210,7 @@
         <strong><xsl:apply-templates/></strong>
     </xsl:template>
 
-    <xsl:template match="strike" name="escapeStrong">
+    <xsl:template match="strike" name="escapeStrike">
         <strike><xsl:apply-templates/></strike>
     </xsl:template>
 
@@ -251,5 +253,6 @@
             </xsl:choose>
         </li>
     </xsl:template>
+
 </xsl:stylesheet>
 

@@ -1,8 +1,8 @@
 html {
     font-family: "Times New Roman", Georgia, Serif;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5em;
-    margin: 50px;
+    margin: 2em;
 }
 
 body {
@@ -11,7 +11,13 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 
-    color: #666 !important;
+    overflow-x: hidden;
+
+    color: #676767;
+}
+
+strong {
+    font-weight: bold;
 }
 
 em {
@@ -19,29 +25,25 @@ em {
     color: #4C1900;
 }
 
-strong {
-    font-weight: bold;
-}
-
 h1 {
-    margin: 5px 0 0 260px;
+    margin: 5px 0 0 185px;
     padding: 0;
 
     width: 100%;
 
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 40px;
     text-transform: uppercase;
 }
 
 h1:nth-of-type(1) {
-    height: 60px;
+    height: 1em;
 
     color: #4C1900;
 }
 
 h1:nth-of-type(2) {
-    height: 90px;
+    height: 1.5em;
 
     color: #000;
 }
@@ -50,26 +52,38 @@ h2, h3, h4 {
     margin: 0;
     padding: 0;
 
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 26px;
 }
 
 h2 {
     position: absolute;
-    left: -260px;
-    width: 250px;
+    left: -177px;
+    width: 1280px;
 
-    text-align:  right;
     text-transform: uppercase;
-    padding: 0 800px 3px 0;
-    color: #996633;
+    color: #4c1900 !important;
 
     border-bottom: 5px solid #F5F5F5;
 }
-
+h2 span {
+    display: block;
+    width: 170px;
+    text-align: right;
+}
 h3 {
     width: 100%;
     color: #676767;
+}
+
+h3 span.location {
+    display: block;
+
+    font-size: 12px;
+    line-height: 22px;
+
+    color: #BBB;
+
 }
 
 h4 {
@@ -81,6 +95,8 @@ h4 {
     color: #999;
 
     text-align: right;
+    border-bottom: 3px solid #F5F5F5;
+    width: 100%;
 }
 
 h5 {
@@ -88,19 +104,86 @@ h5 {
 
     color: #000;
 }
+
 h5:not(:first-child) {
     margin: 2em 0 5px 0;
 }
 
+#address, #contact, #links {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 12px;
+    line-height: 20px;
+    text-align:  right;
+    text-transform: lowercase;
+
+    color: #676767;
+}
+
+#contact {
+    top: 0px;
+    left: 0;
+}
+
+#links {
+    top: 45px;
+    left: 0;
+}
+
+#address {
+    top: 91px;
+    left: 185px;
+
+    width: 500px;
+    text-align: left;
+}
+
 .section {
     position: relative;
-    margin: 3em 0 0 250px;
+    margin: 3.5em 0 0 175px;
     padding: 0 0 5px 5px;
     border-left: 2px solid #EEE;
+}
 
-/*    page-break-before: auto;
-    page-break-after: auto;
-    page-break-inside: avoid;*/
+.section > h2,
+.section h3,
+.section h4,
+.section > p,
+.section > ul
+{
+    display: block;
+    vertical-align: 100%;
+
+    line-height: 32px;
+
+    margin: 0;
+    padding: 0;
+}
+.section > h2,
+.section h3,
+.section h4,
+.section > p:first-line,
+.section > ul:first-line,
+.section > ul > li:first-line,
+.section > ul:first-of-type > li:first-of-type
+{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 32px;
+
+    color: #000;
+}
+
+.section > ul:first-of-type > li:first-of-type > ul > li {
+    font-size: 20px;
+    line-height: default;
+
+    color: #000;
 }
 
 .section > div {
@@ -126,45 +209,8 @@ h5:not(:first-child) {
     font-weight: normal;
 }
 
-#address, #contact, #links {
-    position: absolute;
-    width: 250px;
-
-    margin: 0;
-    padding: 0;
-
-    font-size: 16px;
-    line-height: 20px;
-    text-align:  right;
-    text-transform: lowercase;
-
-    color: #676767;
-}
-
-#address {
-    top: 75px;
-    left: 0;
-}
-
-#contact {
-    top: 10px;
-    left: 0;
-}
-
-#links {
-    top: 140px;
-    left: 0;
-}
-
-#objective.section p:nth-of-type(1):first-line
-{
-    display: block;
-
-    font-size: 30px;
-    font-weight: normal;
-    line-height: 30px;
-
-    color: #676767;
+#objective.section p {
+    vertical-align: 0px;
 }
 
 #objective.section p:nth-of-type(2)
@@ -175,21 +221,24 @@ h5:not(:first-child) {
     color: #999;
 }
 
-#skills ul:nth-of-type(1) li:nth-of-type(1):first-line,
-#interests ul:nth-of-type(1):first-line
+
+#skills > ul:nth-of-type(1) > li:not(:nth-of-type(1)):first-line
 {
-    display: block;
-    font-size: 30px;
+    font-size: 14px;
     font-weight: normal;
-    line-height: 30px;
+    line-height: 14px;
 
-    color: #676767;
+    color: #885522;
 }
 
-#interests.inline_list ul li
-{
-    color: #676767;
+#skills > ul > li > ul > li {
+    color: #000;
 }
+
+#skills > ul > li > ul > li:first-child {
+    margin-left: 1em;
+}
+
 
 #education.section ul > li,
 #interests.section ul > li {
@@ -202,11 +251,19 @@ h5:not(:first-child) {
 }
 
 #experience div:not(:first-of-type) h3 {
-    border-bottom: 3px solid #F5F5F5;
     position: relative;
     left: -20px;
     padding: 0 0 0 20px;
     margin: 2em 0 0 0;
+}
+#experience div:not(:first-of-type) h3 span {
+    margin-top: 0;
+    padding-top: 0;
+
+    position: relative;
+    left: -20px;
+
+    padding: 0 0 0 20px;
 }
 
 #experience > div > div > ul > li > ul > li {
@@ -216,6 +273,7 @@ h5:not(:first-child) {
 
 .inline_list ul {
     margin: 0;
+    line-height: 26px;
 }
 .inline_list ul > li {
     list-style-type: none;
@@ -230,6 +288,7 @@ h5:not(:first-child) {
     display: inline;
 
     margin: 0;
+    padding: 0;
 
     list-style-type: none;
     color: #676767;
@@ -239,21 +298,23 @@ h5:not(:first-child) {
     display: inline;
 
     margin: 0;
+    padding: 0;
 
     list-style-type: none;
     white-space: nowrap;
 }
-.inline_list ul > li > ul > li > ul > li:not(:first-child) {
-    font-size: 16px;
+.inline_list ul > li > ul > li > ul > li {
+    font-size: 61.803398875%;
+    vertical-align: super;
 }
 .inline_list ul li > ul > li:not(:last-child):after {
     content:", ";
 }
 .inline_list ul li > ul > li > ul:before {
-    content:" (";
+    content:" ";
 }
 .inline_list ul li > ul > li > ul:after {
-    content:")";
+    content:"";
 }
 .inline_list ul li > ul > li > ul li:not(:last-child):first-child:after {
     content:": ";
@@ -262,7 +323,9 @@ h5:not(:first-child) {
 #footer {
     position: relative;
     bottom: 0;
-    left: 260px;
+    left: 185px;
+    margin: 0;
+    padding: 0;
 
     text-transform: uppercase;
 }
@@ -270,71 +333,40 @@ h5:not(:first-child) {
 @media print {
     @page {
         size: 8.27in 11.69in;
-        margin: .5in .5in .5in .5in;
-    }
-
-    html {
-        font-size: 18px;
-        line-height: 1.5em;
-        margin: 0;
+        margin: .5in;
     }
 
     body {
-        max-width: auto;
-    }
-
-    h1 {
-        margin-left: 220px;
-        width: 7.27in;
+        max-width: 8.27in;
     }
 
     h2 {
-        left: -220px;
-        width: 210px;
-    }
-    .section {
-        margin-left: 220px;
+        width: 8.27in;
     }
 
-    #address, #contact , #links {
-        width: 210px;
+    html {
+        margin: 0;
+        font-size: 14px;
     }
 
-    h2, h3, h4, #objective.section p:nth-of-type(1):first-line, #skills ul:nth-of-type(1) li:nth-of-type(1):first-line, #interests ul:nth-of-type(1):first-line
-    {
-        font-size: 24px;
-        line-height: 24px;
+    .section > ul:first-of-type > li:first-of-type > ul > li {
+        font-size: 14px;
+        line-height: default;
     }
 
-    a {
-        color: #000;
-        text-decoration:none;
+    #header:after {
+        content: url(https://chart.googleapis.com/chart?cht=qr&chs=80x80&chl=http://nalin.singapuri.com&choe=UTF-8&chld=L|0);
+        position: absolute;
+        right: 0px;
+        top: 0px;
     }
 
     #content a[href^="http://"]:after, #content a[href^="https://"]:after {
         content: ": " attr(href);
     }
 
-
     #experience > div
     {
         page-break-inside: avoid;
-    }
-
-    #header {
-        width: 100%;
-    }
-
-    #header:after {
-        content: url(https://chart.googleapis.com/chart?cht=qr&chs=125x125&chl=http://nalin.singapuri.com&choe=UTF-8&chld=L|0);
-        position: absolute;
-        right: 0px;
-        top: 0px;
-    }
-
-    #footer {
-        position: fixed;
-        left: 230px;
-
     }
 }
