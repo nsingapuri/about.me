@@ -84,12 +84,6 @@
             </skill>
         </group>
         <group name="Web">
-<<<<<<< Updated upstream
-            <skill name="XHTML">
-                <level>8</level>
-            </skill>
-=======
->>>>>>> Stashed changes
             <skill name="CSS">
                 <level>8</level>
             </skill>
@@ -170,13 +164,8 @@
                     <responsibility summary="Reduced server provision times">
                         by 78% (<a href="https://www.softlayer.com/press/release/2562/softlayer-introduces-new-hourly-bare-metal-servers-deployed-in-minutes">Press Release</a>) - Development Champion, Technical Lead.
                     </responsibility>
-<<<<<<< Updated upstream
-                    <responsibility summary="Built">
-                        system to track shipments of hardware, components, and unsterilized inventory - Technical Lead.
-=======
                     <responsibility summary="Built shipping system">
                         to track shipments of inventory between datacenters and to offsite locations - Technical Lead.
->>>>>>> Stashed changes
                     </responsibility>
                     <responsibility summary="Launched 10 datacenters">
                         in 2014 - Technical sign off for HIOS owned systems.
@@ -225,11 +214,7 @@
                     <responsibility summary="Architected interactive map">
                          for viewing and searching MLS listings.
                     </responsibility>
-<<<<<<< Updated upstream
-                    <responsibility summary="Lead / Managed">
-=======
                     <responsibility summary="Managed">
->>>>>>> Stashed changes
                          7 developers.
                     </responsibility>
                 </responsibilities>
@@ -260,29 +245,7 @@
                 </responsibilities>
             </jobDescription>
         </experience>
-<<<<<<< Updated upstream
-        <experience>
-            <employer>
-                <name>Independent Contract</name>
-            </employer>
-            <startDate>2001-01-01</startDate>
-            <jobDescription>
-                <responsibilities>
-                    <responsibility summary="Web design and hosting"><br/>
-                        Museum of Jewelry (San Francisco, CA)<br/>
-                        AAA Surety (Dallas, TX)<br/>
-                    </responsibility>
-                    <responsibility summary="Development"><br/>
-                        Innovative Business Concepts (Long Beach, CA)<br/>
-                        Irio (Dallas, TX)
-                    </responsibility>
-                </responsibilities>
-            </jobDescription>
-        </experience>
-=======
->>>>>>> Stashed changes
     </experiences>
-
     <education>
         <educator>
             <name>University of Denver</name>
