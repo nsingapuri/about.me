@@ -105,61 +105,7 @@
                                             </ul>
                                         </div>
                                     </xsl:if>
-                                    <xsl:if test="jobDescription/projects/project">
-                                        <div class="projects">
-                                            <ul>
-                                                <xsl:for-each select="jobDescription/projects/project">
-                                                    <li>
-                                                        <strong>
-                                                            <xsl:value-of select="@summary"/>
-                                                        </strong>
-                                                        <xsl:if test="@role">
-                                                            (<xsl:value-of select="@role"/>)
-                                                        </xsl:if>
-                                                        <ul>
-                                                            <xsl:for-each select="description">
-                                                                <li>
-                                                                    <strong>
-                                                                        <xsl:call-template name="CamelCaseWord">
-                                                                            <xsl:with-param name="text" select="name(.)"/>
-                                                                        </xsl:call-template>:
-                                                                    </strong>
-                                                                    <xsl:value-of select=".">
-                                                                        <xsl:call-template name="escapeHtml"/>
-                                                                    </xsl:value-of>
-                                                                </li>
-                                                            </xsl:for-each>
-                                                            <xsl:for-each select="scope">
-                                                                <li>
-                                                                    <strong>
-                                                                        <xsl:call-template name="CamelCaseWord">
-                                                                            <xsl:with-param name="text" select="name(.)"/>
-                                                                        </xsl:call-template>:
-                                                                    </strong>
-                                                                    <xsl:value-of select=".">
-                                                                        <xsl:call-template name="escapeHtml"/>
-                                                                    </xsl:value-of>
-                                                                </li>
-                                                            </xsl:for-each>
-                                                            <xsl:if test="deliverables/deliverable">
-                                                                <li>
-                                                                    <strong>Deliverables:</strong>
-                                                                    <ul>
-                                                                        <xsl:for-each select="deliverables/deliverable">
-                                                                            <li>
-                                                                                <xsl:call-template name="escapeHtml"/>
-                                                                            </li>
-                                                                        </xsl:for-each>
-                                                                    </ul>
-                                                                </li>
-                                                            </xsl:if>
-                                                        </ul>
-                                                    </li>
-                                                </xsl:for-each>
-                                            </ul>
-                                        </div>
-                                    </xsl:if>
-                                </div>
+                                 </div>
                             </div>
                         </xsl:for-each>
                     </div>
