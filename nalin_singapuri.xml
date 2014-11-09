@@ -58,7 +58,10 @@
                 <proficiency>Red Hat / CentOS</proficiency>
             </skill>
             <skill name="OS X">
-                <level>5</level>
+                <level>6</level>
+            </skill>
+            <skill name="Windows">
+                <level>4</level>
             </skill>
             <skill name="Services">
                 <level>5</level>
@@ -111,16 +114,13 @@
             <skill name="Data Structures">
                 <level>6</level>
             </skill>
-            <skill name="MVC">
-                <level>8</level>
-            </skill>
-            <skill name="ORM">
-                <level>6</level>
-            </skill>
             <skill name="Design Patterns">
                 <level>4</level>
             </skill>
             <skill name="MVC">
+                <level>8</level>
+            </skill>
+            <skill name="OO">
                 <level>8</level>
             </skill>
             <skill name="ORM">
