@@ -1,23 +1,22 @@
 html {
+    margin: 0;
+
     font-family: "Times New Roman", Georgia, Serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5em;
-    margin: 2em;
 }
 
 body {
     position: relative;
-
     max-width: 1280px;
-    margin: 0 auto;
-
+    margin: 1em auto;
     overflow-x: hidden;
-
-    color: #676767;
+    color: #333;
 }
 
 strong {
     font-weight: bold;
+    color: #000;
 }
 
 em {
@@ -25,127 +24,45 @@ em {
     color: #4C1900;
 }
 
-h1 {
-    margin: 5px 0 0 185px;
-    padding: 0;
-
-    width: 100%;
-
-    font-size: 40px;
-    line-height: 40px;
-    text-transform: uppercase;
-}
-
-h1:nth-of-type(1) {
-    height: 1em;
-
-    color: #4C1900;
-}
-
-h1:nth-of-type(2) {
-    height: 1.5em;
-
-    color: #000;
-}
-
-h2, h3, h4 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
-
-    font-size: 26px;
-    line-height: 26px;
 }
 
-h2 {
-    position: absolute;
-    left: -177px;
-    width: 1280px;
+h1 {
+    width: 100%;
 
+    font-size: 323.60679775%;
+    line-height: 100%;
     text-transform: uppercase;
-    color: #4c1900 !important;
+}
 
-    border-bottom: 5px solid #F5F5F5;
+h2,
+h3,
+h4 {
+    font-size: 242.705098312%;
+    line-height: 100%;
 }
-h2 span {
-    display: block;
-    width: 170px;
-    text-align: right;
-}
+
 h3 {
     width: 100%;
     color: #676767;
 }
 
-h3 span.location {
-    display: block;
-
-    font-size: 12px;
-    line-height: 22px;
-
-    color: #BBB;
-
-}
-
-h4 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 38%;
-
-    color: #999;
-
-    text-align: right;
-    border-bottom: 3px solid #F5F5F5;
-    width: 100%;
-}
-
-h5 {
-    margin: .5em 0 5px 0;
-
-    color: #000;
-}
-
-h5:not(:first-child) {
-    margin: 2em 0 5px 0;
-}
-
-#address, #contact, #links {
-    position: absolute;
-    width: 170px;
-    height: 40px;
-
-    margin: 0;
-    padding: 0;
-
-    font-size: 12px;
-    line-height: 20px;
-    text-align:  right;
-    text-transform: lowercase;
-
-    color: #676767;
-}
-
-#contact {
-    top: 0px;
-    left: 0;
-}
-
-#links {
-    top: 45px;
-    left: 0;
-}
-
-#address {
-    top: 91px;
-    left: 185px;
-
-    width: 500px;
-    text-align: left;
+h5,
+h6 {
+    font-size: 127.201964951%;
+    line-height: 100%;
 }
 
 .section {
     position: relative;
-    margin: 3.5em 0 0 175px;
+    margin: 3.5em 0 0 185px;
     padding: 0 0 5px 5px;
     border-left: 2px solid #EEE;
 }
@@ -153,55 +70,67 @@ h5:not(:first-child) {
 .section > h2,
 .section h3,
 .section h4,
-.section > p,
-.section > ul
-{
-    display: block;
-    vertical-align: 100%;
-
-    line-height: 32px;
-
-    margin: 0;
-    padding: 0;
-}
-.section > h2,
-.section h3,
-.section h4,
 .section > p:first-line,
-.section > ul:first-line,
-.section > ul > li:first-line,
-.section > ul:first-of-type > li:first-of-type
-{
-    font-size: 26px;
+.section > ul:nth-of-type(1) > li:nth-of-type(1) {
+    font-size: 127.201964951%;
     font-weight: normal;
-    line-height: 32px;
-
+    line-height: 100%;
     color: #000;
 }
 
-.section > ul:first-of-type > li:first-of-type > ul > li {
-    font-size: 20px;
-    line-height: default;
+.section > h2 {
+    position: absolute;
+    left: -177px;
+    width: 1280px;
+    margin-top: 0;
 
+    text-transform: uppercase;
+    color: #4c1900;
+
+    border-bottom: 4px solid #F5F5F5;
+
+    z-index: -1;
+}
+
+.section h2 span {
+    display: block;
+    width: 170px;
+    text-align: right;
+}
+
+.section h3 {
+    margin-top: 1.5em;
+}
+
+.section h3 span.location {
+    display: block;
+
+    font-size: 12px;
+    line-height: 22px;
+    color: #BBB;
+}
+
+.section h4 {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    width: 100%;
+
+    text-align: right;
+    border-bottom: 3px solid #F5F5F5;
+
+    z-index: -1;
+}
+
+.section h5 {
+    margin: .25em 0 .5em 0;
+    font-size: 100%;
+    line-height: 100%;
     color: #000;
 }
 
-.section > div {
+.section div {
     position: relative;
-    margin: 0;
-    padding: 0;
-}
-
-.section p {
-    margin: 0;
-    padding: 0;
-}
-
-.section ul li {
-    list-style-type: square;
-    list-style-color: #996633;
-
-    margin-left: 1em;
 }
 
 .section strong {
@@ -209,148 +138,276 @@ h5:not(:first-child) {
     font-weight: normal;
 }
 
-#objective.section p {
-    vertical-align: 0px;
-}
+#experience ul li {
+    list-style-type: square;
+    list-style-color: #996633;
 
-#objective.section p:nth-of-type(2)
-{
-    font-size: 61.803398875%;
-    line-height: 100%;
-
-    color: #999;
-}
-
-
-#skills > ul:nth-of-type(1) > li:not(:nth-of-type(1)):first-line
-{
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 14px;
-
-    color: #885522;
-}
-
-#skills > ul > li > ul > li {
-    color: #000;
-}
-
-#skills > ul > li > ul > li:first-child {
     margin-left: 1em;
 }
 
-
-#education.section ul > li,
-#interests.section ul > li {
-    display:inline;
-    margin: 1em 1em 0 0;
+#content > div {
+    clear: both;
 }
 
-#education.section ul {
-    margin: 10px 0 0 0;
+#candidate,
+#title {
+    margin: 5px 0 0 195px;
 }
 
-#experience div:not(:first-of-type) h3 {
-    position: relative;
-    left: -20px;
-    padding: 0 0 0 20px;
-    margin: 2em 0 0 0;
-}
-#experience div:not(:first-of-type) h3 span {
-    margin-top: 0;
-    padding-top: 0;
-
-    position: relative;
-    left: -20px;
-
-    padding: 0 0 0 20px;
+#candidate {
+    color: #4C1900;
 }
 
-#experience > div > div > ul > li > ul > li {
-    list-style-type: none;
-    margin-left: 0;
-}
-
-.inline_list ul {
-    margin: 0;
-    line-height: 26px;
-}
-.inline_list ul > li {
-    list-style-type: none;
-    margin: 1em 0 0 0;
-
+#title {
     color: #000;
 }
 
-.inline_list ul > li > ul > li {
-    font-weight: normal;
-
-    display: inline;
+#contact,
+#links,
+#address {
+    position: absolute;
+    width: 180px;
+    height: 40px;
 
     margin: 0;
     padding: 0;
 
-    list-style-type: none;
+    font-size: 80%;
+    line-height: 120%;
+    text-align:  right;
+    text-transform: lowercase;
+
     color: #676767;
 }
 
-.inline_list ul > li > ul > li > ul {
-    display: inline;
+#contact {
+    top: .95em;
+    left: 0;
+}
 
+#links {
+    top: 5.20em;
+    left: 0;
+}
+
+#address {
+    top: 9.0em;
+    left: 195px;
+
+    width: 500px;
+    text-align: left;
+}
+
+#skills > ul > li > ul {
+    margin: 0 0 15px 10px;
+}
+
+#skills > ul > li > ul > li {
+    display: inline;
+}
+
+#skills > ul > li > ul > li > ul {
+    display: inline;
+    font-size: 80.9016994375%;
+    vertical-align: super;
+
+}
+
+#skills > ul > li > ul > li > ul > li {
+    list-style: none;
     margin: 0;
     padding: 0;
+    display: inline-block;
+}
 
-    list-style-type: none;
-    white-space: nowrap;
+#skills ul > li > ul > li:not(:last-child):after {
+    content: ", ";
 }
-.inline_list ul > li > ul > li > ul > li {
-    font-size: 61.803398875%;
-    vertical-align: super;
+
+#skills ul > li > ul > li > ul > li:not(:last-child):first-child:after {
+    content: ": ";
 }
-.inline_list ul li > ul > li:not(:last-child):after {
-    content:", ";
+
+#interests > ul,
+#interests > ul > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
 }
-.inline_list ul li > ul > li > ul:before {
-    content:" ";
-}
-.inline_list ul li > ul > li > ul:after {
-    content:"";
-}
-.inline_list ul li > ul > li > ul li:not(:last-child):first-child:after {
-    content:": ";
+
+#interests > ul > li {
+    margin-right: 1em;
 }
 
 #footer {
-    position: relative;
+    clear: both;
+
+    position: absolute;
     bottom: 0;
-    left: 185px;
+    left: 190px;
     margin: 0;
     padding: 0;
 
     text-transform: uppercase;
 }
 
+@media screen and (max-width:750px) {
+    body {
+        max-width: 500px;
+    }
+
+    .section > h2 {
+        width: 500px;
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    .section > ul:first-of-type > li:first-of-type > ul > li {
+        font-size: 12px;
+    }
+
+    #interests > ul > li:nth-of-type(1),
+    #interests > ul > li:nth-of-type(2),
+    #interests > ul > li:nth-of-type(3) {
+        font-size: 127.201964951%;
+        font-weight: normal;
+        line-height: 100%;
+        color: #000;
+        white-space: nowrap;
+    }
+
+    #interests > ul > li:nth-of-type(4) {
+        clear: both;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:1024px) {
+    body {
+        max-width: 750px;
+    }
+
+    .section > h2 {
+        width: 750px;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    .section > ul:first-of-type > li:first-of-type > ul > li {
+        font-size: 14px;
+    }
+
+    #interests > ul > li:nth-of-type(1),
+    #interests > ul > li:nth-of-type(2),
+    #interests > ul > li:nth-of-type(3) {
+        font-size: 127.201964951%;
+        font-weight: normal;
+        line-height: 100%;
+        color: #000;
+        white-space: nowrap;
+    }
+
+    #interests > ul > li:nth-of-type(4) {
+        clear: both;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    body {
+        max-width: 1024px;
+    }
+
+    .section > h2 {
+        width: 1004px;
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    .section > ul:first-of-type > li:first-of-type > ul > li {
+        font-size: 16px;
+        line-height: default;
+    }
+
+    #interests > ul > li:nth-of-type(1),
+    #interests > ul > li:nth-of-type(2),
+    #interests > ul > li:nth-of-type(3),
+    #interests > ul > li:nth-of-type(4),
+    #interests > ul > li:nth-of-type(5) {
+        font-size: 127.201964951%;
+        font-weight: normal;
+        line-height: 100%;
+        color: #000;
+        white-space: nowrap;
+    }
+
+    #interests > ul > li:nth-of-type(6) {
+        clear: both;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    body {
+        max-width: 1280px;
+    }
+
+    .section > h2 {
+        width: 1260px;
+    }
+
+    html {
+        font-size: 18px;
+    }
+
+    .section > ul:first-of-type > li:first-of-type > ul > li {
+        font-size: 18px;
+        line-height: default;
+    }
+
+    #interests > ul > li:nth-of-type(1),
+    #interests > ul > li:nth-of-type(2),
+    #interests > ul > li:nth-of-type(3),
+    #interests > ul > li:nth-of-type(4),
+    #interests > ul > li:nth-of-type(5) {
+        font-size: 127.201964951%;
+        font-weight: normal;
+        line-height: 100%;
+        color: #000;
+        white-space: nowrap;
+    }
+
+    #interests > ul > li:nth-of-type(6) {
+        clear: both;
+    }
+}
+
 @media print {
     @page {
         size: 8.27in 11.69in;
-        margin: .5in;
+        margin: .25in;
     }
 
     body {
         max-width: 8.27in;
     }
 
-    h2 {
+    .section > h2 {
         width: 8.27in;
     }
 
     html {
         margin: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .section > ul:first-of-type > li:first-of-type > ul > li {
-        font-size: 14px;
+        font-size: 12px;
         line-height: default;
     }
 
@@ -361,12 +418,37 @@ h5:not(:first-child) {
         top: 0px;
     }
 
-    #content a[href^="http://"]:after, #content a[href^="https://"]:after {
+    #content a[href^="http://"]:after,
+    #content a[href^="https://"]:after {
         content: ": " attr(href);
     }
 
-    #experience > div
+    #objective,
+    #skills,
+    #experience > div,
+    #education,
+    #interests
     {
         page-break-inside: avoid;
+    }
+
+    #footer {
+        position: fixed;
+    }
+
+    #interests > ul > li:nth-of-type(1),
+    #interests > ul > li:nth-of-type(2),
+    #interests > ul > li:nth-of-type(3),
+    #interests > ul > li:nth-of-type(4) {
+        font-size: 127.201964951%;
+        font-weight: normal;
+        line-height: 100%;
+        color: #000;
+        white-space: nowrap;
+        clear: none;
+    }
+
+    #interests > ul > li:nth-of-type(5) {
+        clear: both;
     }
 }

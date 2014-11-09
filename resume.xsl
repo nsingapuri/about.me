@@ -22,8 +22,8 @@
                     </div>
 
                     <div id="links">
-                        <xsl:copy-of select="github"/><br/>
-                        <xsl:copy-of select="website"/>
+                        <xsl:copy-of select="website"/><br/>
+                        <xsl:copy-of select="github"/>
                     </div>
 
                     <div id="address">
@@ -189,6 +189,9 @@
                         </ul>
                     </div>
                 </div>
+                <br/>
+                <br/>
+                <br/>
                 <br/>
                 <div id="footer">
                     <xsl:value-of select="name"/> Resume: <xsl:value-of select="email"/> | <xsl:value-of select="phone"/>

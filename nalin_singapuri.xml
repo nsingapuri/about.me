@@ -84,9 +84,12 @@
             </skill>
         </group>
         <group name="Web">
+<<<<<<< Updated upstream
             <skill name="XHTML">
                 <level>8</level>
             </skill>
+=======
+>>>>>>> Stashed changes
             <skill name="CSS">
                 <level>8</level>
             </skill>
@@ -94,6 +97,9 @@
                 <level>5</level>
                 <proficiency>JQuery</proficiency>
                 <proficiency>YUI</proficiency>
+            </skill>
+            <skill name="(X)HTML">
+                <level>8</level>
             </skill>
             <skill name="XML/XSLT/XSD">
                 <level>6</level>
@@ -119,6 +125,12 @@
             </skill>
             <skill name="Design Patterns">
                 <level>4</level>
+            </skill>
+            <skill name="MVC">
+                <level>8</level>
+            </skill>
+            <skill name="ORM">
+                <level>6</level>
             </skill>
         </group>
     </skills>
@@ -155,14 +167,19 @@
             <jobDescription>
                 <title>Software Engineer III - Systems - Infrastructure - Hardware Inventory Operations Software [HIOS]</title>
                 <responsibilities>
-                    <responsibility summary="Reduced">
-                        server provision times by 78% (<a href="https://www.softlayer.com/press/release/2562/softlayer-introduces-new-hourly-bare-metal-servers-deployed-in-minutes">Press Release</a>) - Development Champion, Technical Lead.
+                    <responsibility summary="Reduced server provision times">
+                        by 78% (<a href="https://www.softlayer.com/press/release/2562/softlayer-introduces-new-hourly-bare-metal-servers-deployed-in-minutes">Press Release</a>) - Development Champion, Technical Lead.
                     </responsibility>
+<<<<<<< Updated upstream
                     <responsibility summary="Built">
                         system to track shipments of hardware, components, and unsterilized inventory - Technical Lead.
+=======
+                    <responsibility summary="Built shipping system">
+                        to track shipments of inventory between datacenters and to offsite locations - Technical Lead.
+>>>>>>> Stashed changes
                     </responsibility>
-                    <responsibility summary="Launched">
-                        10 datacenters in 2014 - Technical sign off for HIOS owned systems.
+                    <responsibility summary="Launched 10 datacenters">
+                        in 2014 - Technical sign off for HIOS owned systems.
                     </responsibility>
                 </responsibilities>
             </jobDescription>
@@ -171,7 +188,7 @@
             <employer>
                 <name>SpeedFC</name>
                 <address>
-                    <city>Garland</city>
+                    <city>Dallas</city>
                     <state>TX</state>
                 </address>
             </employer>
@@ -183,8 +200,8 @@
                     <responsibility summary="Onboarded">
                         Spencers Gifts, Dress Barn, Anchor Blue, and Foundry - Technical Lead, Data Integrations.
                     </responsibility>
-                    <responsibility summary="Created">
-                        dynamic pick scheduling system - Technical Lead.
+                    <responsibility summary="Created pick scheduler">
+                         - Technical Lead.
                     </responsibility>
                 </responsibilities>
             </jobDescription>
@@ -205,10 +222,14 @@
                     <responsibility summary="Built search engine">
                          for residential property data.
                     </responsibility>
-                    <responsibility summary="Architected">
-                         interactive map for viewing and searching MLS listings.
+                    <responsibility summary="Architected interactive map">
+                         for viewing and searching MLS listings.
                     </responsibility>
+<<<<<<< Updated upstream
                     <responsibility summary="Lead / Managed">
+=======
+                    <responsibility summary="Managed">
+>>>>>>> Stashed changes
                          7 developers.
                     </responsibility>
                 </responsibilities>
@@ -239,6 +260,7 @@
                 </responsibilities>
             </jobDescription>
         </experience>
+<<<<<<< Updated upstream
         <experience>
             <employer>
                 <name>Independent Contract</name>
@@ -257,6 +279,8 @@
                 </responsibilities>
             </jobDescription>
         </experience>
+=======
+>>>>>>> Stashed changes
     </experiences>
 
     <education>
