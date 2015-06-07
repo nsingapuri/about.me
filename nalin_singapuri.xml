@@ -130,6 +130,26 @@
             <skill name="ORM">
                 <level>6</level>
             </skill>
+            <skill name="TDD">
+                <level>6</level>
+            </skill>
+        </group>
+        <group name="Management">
+            <skill name="Agile/Scrum">
+                <level>6</level>
+            </skill>
+            <skill name="Hiring">
+                <level>7</level>
+            </skill>
+            <skill name="Mentoring">
+                <level>7</level>
+            </skill>
+            <skill name="Project Management">
+                <level>4</level>
+            </skill>
+            <skill name="Roadmapping">
+                <level>6</level>
+            </skill>
         </group>
     </skills>
 
@@ -145,7 +165,7 @@
         <interest>Happy Hour</interest>
         <interest>Linus Torvalds</interest>
         <interest>Nasdaq</interest>
-        <interest>Slashdot</interest>
+        <interest>3d printing</interest>
         <interest>Mustache wax</interest>
     </interests>
 
