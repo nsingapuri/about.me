@@ -71,25 +71,25 @@
                                         </xsl:choose>
                                     </h4>
                                 </div>
+                                <xsl:for-each select="jobDescriptions/jobDescription">
                                 <div class="experience_description">
                                     <h5>
-                                        <xsl:value-of select="jobDescription/title"/>
+                                        <xsl:value-of select="title"/>
                                     </h5>
-
                                     <xsl:if test="employer/summary">
                                         <p><em>
                                             <xsl:value-of select="employer/summary"/>
                                         </em></p>
                                     </xsl:if>
-                                    <xsl:if test="jobDescription/summary">
+                                    <xsl:if test="summary">
                                         <p><em>
-                                            <xsl:value-of select="jobDescription/summary"/>
+                                            <xsl:value-of select="summary"/>
                                         </em></p>
                                     </xsl:if>
-                                    <xsl:if test="jobDescription/responsibilities/responsibility">
+                                    <xsl:if test="responsibilities/responsibility">
                                         <div class="responsibilities">
                                             <ul>
-                                                <xsl:for-each select="jobDescription/responsibilities/responsibility">
+                                                <xsl:for-each select="responsibilities/responsibility">
                                                     <li>
                                                         <xsl:choose>
                                                             <xsl:when test="@summary">
@@ -106,6 +106,7 @@
                                         </div>
                                     </xsl:if>
                                  </div>
+                                </xsl:for-each>
                             </div>
                         </xsl:for-each>
                     </div>
@@ -119,6 +120,28 @@
                                 </h3>
                                 <ul>
                                     <xsl:for-each select="degrees/*">
+                                        <xsl:call-template name="unsortedListRecursive"/>
+                                    </xsl:for-each>
+                                </ul>
+                            </div>
+                        </xsl:for-each>
+                    </div>
+
+                    <div id="publications" class="section inline_list">
+                        <h2><span>Publications</span></h2>
+                        <xsl:for-each select="publications/publication">
+                            <div>
+                                <h3>
+                                    <xsl:value-of select="name"/>
+                                    <span class="location">
+                                        <xsl:value-of select="venue"/>
+                                    </span>
+                                </h3>
+                                <h4>
+                                    <xsl:value-of select="startDate"/>
+                                </h4>
+                                <ul>
+                                    <xsl:for-each select="url">
                                         <xsl:call-template name="unsortedListRecursive"/>
                                     </xsl:for-each>
                                 </ul>
