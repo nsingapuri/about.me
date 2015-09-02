@@ -23,7 +23,8 @@
 
                     <div id="links">
                         <xsl:copy-of select="website"/><br/>
-                        <xsl:copy-of select="github"/>
+                        <xsl:copy-of select="github"/><br/>
+                        <xsl:copy-of select="stackoverflow"/>
                     </div>
 
                     <div id="address">
