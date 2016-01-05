@@ -23,6 +23,29 @@
     </objectives>
 
     <skills>
+        <group name="Architecture">
+            <skill name="Algorithms">
+                <level>8</level>
+            </skill>
+            <skill name="Data Structures">
+                <level>6</level>
+            </skill>
+            <skill name="Design Patterns">
+                <level>4</level>
+            </skill>
+            <skill name="MVC">
+                <level>8</level>
+            </skill>
+            <skill name="OO">
+                <level>8</level>
+            </skill>
+            <skill name="ORM">
+                <level>6</level>
+            </skill>
+            <skill name="TDD">
+                <level>6</level>
+            </skill>
+        </group>
         <group name="Software Engineering">
             <skill name="Bash">
                 <level>6</level>
@@ -112,44 +135,21 @@
                 <proficiency>REST</proficiency>
             </skill>
         </group>
-        <group name="Architecture">
-            <skill name="Algorithms">
-                <level>8</level>
-            </skill>
-            <skill name="Data Structures">
-                <level>6</level>
-            </skill>
-            <skill name="Design Patterns">
-                <level>4</level>
-            </skill>
-            <skill name="MVC">
-                <level>8</level>
-            </skill>
-            <skill name="OO">
-                <level>8</level>
-            </skill>
-            <skill name="ORM">
-                <level>6</level>
-            </skill>
-            <skill name="TDD">
-                <level>6</level>
-            </skill>
-        </group>
-        <group name="Management">
+        <group name="Leadership and People Management">
             <skill name="Agile/Scrum">
                 <level>6</level>
             </skill>
             <skill name="Hiring">
-                <level>7</level>
+                <level>8</level>
             </skill>
             <skill name="Mentoring">
                 <level>7</level>
             </skill>
             <skill name="Project Management">
-                <level>4</level>
+                <level>5</level>
             </skill>
             <skill name="Roadmapping">
-                <level>6</level>
+                <level>7</level>
             </skill>
         </group>
     </skills>
@@ -188,16 +188,16 @@
                     <title>Lead - Compute - Inventory/Operations</title>
                     <responsibilities>
                         <responsibility summary="Hired, coached, mentored, and managed ">
-                            day to day workflow for a team of 8 backend systems developers.
+                            day to day workflow for a agile team of 8 backend systems engineers.
                         </responsibility>
                         <responsibility summary="Worked directly with stakeholders ">
-                             in Inventory and Operations departments to scope and implement projects.
+                             in Inventory and Operations departments to scope and implement projects and roadmap products.
                         </responsibility>
                         <responsibility summary="Owned SoftLayer API endpoints ">
                              around hardware, components, locations, shipping.
                         </responsibility>
                         <responsibility summary="Launched datacenters. ">
-                            10 in 2014 - provided technical sign off on scan ins, power, locations etc.
+                             We've launched two dozen in the last two years - my team provides technical sign off on scan ins, power, locations, and resource records.
                         </responsibility>
                     </responsibilities>
                 </jobDescription>
@@ -314,6 +314,8 @@
             <venue>Lone Star PHP</venue>
             <startDate>2015-04-17</startDate>
             <url>https://joind.in/talk/view/14408</url>
+            <role>coauthor</role>
+            <role>copresenter</role>
         </publication>
     </publications>
 </resume>

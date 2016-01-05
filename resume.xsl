@@ -40,6 +40,7 @@
                             <p><xsl:call-template name="escapeHtml"/></p>
                         </xsl:for-each>
                     </div>
+
                     <div id="skills" class="section inline_list">
                         <h2><span>Skills</span></h2>
                         <ul>
@@ -141,8 +142,13 @@
                                 <h4>
                                     <xsl:value-of select="startDate"/>
                                 </h4>
-                                <ul>
+                                <ul id="urls">
                                     <xsl:for-each select="url">
+                                        <xsl:call-template name="unsortedListRecursive"/>
+                                    </xsl:for-each>
+                                </ul>
+                                <ul id="roles">
+                                    <xsl:for-each select="role">
                                         <xsl:call-template name="unsortedListRecursive"/>
                                     </xsl:for-each>
                                 </ul>

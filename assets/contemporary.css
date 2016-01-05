@@ -70,8 +70,10 @@ h6 {
 .section > h2,
 .section h3,
 .section h4,
-.section > p:first-line,
-.section > ul:nth-of-type(1) > li:nth-of-type(1) {
+:not(#objective).section > p:first-line,
+.section > ul:nth-of-type(1) > li:nth-of-type(1),
+#objective.section > p
+{
     font-size: 127.201964951%;
     font-weight: normal;
     line-height: 100%;
@@ -235,6 +237,19 @@ h6 {
     padding: 0;
     display: inline;
     float: left;
+}
+
+#publications ul#roles,
+#publications ul#roles > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
+}
+
+#publications ul#roles > li:not(:last-child):after {
+    content: ", ";
 }
 
 #interests > ul > li {
