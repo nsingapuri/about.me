@@ -311,11 +311,11 @@
     </education>
 
     <publications>
-        <publication type="Patent">
+<!--         <publication type="Patent">
             <name>Methods for Locating a Server via Visual and/or Audio Signaling</name>
             <startDate>TBD</startDate>
             <role>inventor</role>
-        </publication>
+        </publication> -->
         <publication type="Publication">
             <name>Method and System for Pre-Provision Testing of Hardware</name>
             <startDate>2015-07-30</startDate>
