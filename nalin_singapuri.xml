@@ -6,8 +6,9 @@
     <email>nalin.s@gmail.com</email>
     <phone>562.537.5353</phone>
     <website><a href="http://nalin.singapuri.com">http://nalin.singapuri.com</a></website>
-    <stackoverflow>stack overflow: <a href="http://stackoverflow.com/users/3922511/nalin-singapuri">nalin-singapuri</a></stackoverflow>
-    <github>github: <a href="https://github.com/nsingapuri">nsingapuri</a></github>
+    <stackoverflow><a href="http://stackoverflow.com/users/3922511/nalin-singapuri">stack overflow</a></stackoverflow>
+    <github><a href="https://github.com/nsingapuri">github</a></github>
+    <hackerrank><a href="https://www.hackerrank.com/nalins">hacker rank</a></hackerrank>
     <address>
         <street>2510 Club Creek Blvd.</street>
         <city>Garland</city>
@@ -23,6 +24,23 @@
     </objectives>
 
     <skills>
+        <group name="People and Project Management">
+            <skill name="Agile/Scrum">
+                <level>6</level>
+            </skill>
+            <skill name="Hiring">
+                <level>8</level>
+            </skill>
+            <skill name="Mentoring">
+                <level>7</level>
+            </skill>
+            <skill name="Project Management">
+                <level>6</level>
+            </skill>
+            <skill name="Roadmapping">
+                <level>7</level>
+            </skill>
+        </group>
         <group name="Architecture">
             <skill name="Algorithms">
                 <level>8</level>
@@ -60,7 +78,7 @@
                 <level>6</level>
             </skill>
             <skill name="Java">
-                <level>4</level>
+                <level>5</level>
                 <proficiency>GWT</proficiency>
             </skill>
             <skill name="Lisp/Scheme">
@@ -75,7 +93,10 @@
                 <proficiency>Symfony</proficiency>
             </skill>
             <skill name="Python">
-                <level>2</level>
+                <level>5</level>
+            </skill>
+            <skill name="R">
+                <level>5</level>
             </skill>
         </group>
         <group name="System Administration">
@@ -135,23 +156,6 @@
                 <proficiency>REST</proficiency>
             </skill>
         </group>
-        <group name="Leadership and People Management">
-            <skill name="Agile/Scrum">
-                <level>6</level>
-            </skill>
-            <skill name="Hiring">
-                <level>8</level>
-            </skill>
-            <skill name="Mentoring">
-                <level>7</level>
-            </skill>
-            <skill name="Project Management">
-                <level>5</level>
-            </skill>
-            <skill name="Roadmapping">
-                <level>7</level>
-            </skill>
-        </group>
     </skills>
 
     <interests>
@@ -185,35 +189,29 @@
             <endDate/>
             <jobDescriptions>
                 <jobDescription>
-                    <title>Lead - Compute - Inventory/Operations</title>
+                    <title>Lead Software Engineer [Compute - Inventory/Operations]</title>
                     <responsibilities>
-                        <responsibility summary="Hired, coached, mentored, and managed ">
-                            day to day workflow for a agile team of 8 backend systems engineers.
+                        <responsibility summary="Reduced server provision times by 78%.">
+                             Worked with 50 stakeholders across several departments and led a cross-functional team in order to investigate, prioritize, and eliminate provision inconsistencies and develop a fast provision product (<a href="https://www.softlayer.com/press/release/2562/softlayer-introduces-new-hourly-bare-metal-servers-deployed-in-minutes">Press Release</a>). Development Champion / Technical Lead.
                         </responsibility>
-                        <responsibility summary="Worked directly with stakeholders ">
-                             in Inventory and Operations departments to scope and implement projects and roadmap products.
+                        <responsibility summary="Launched thirty-seven datacenters.">
+                             I own the API endpoints and interfaces that track vendor orders, ship hardware across the world, scan it into racks, power it on, and make it ready for sale. My team provides technical sign-off around these processes for DC launches.
                         </responsibility>
-                        <responsibility summary="Owned SoftLayer API endpoints ">
-                             around hardware, components, locations, shipping.
-                        </responsibility>
-                        <responsibility summary="Launched datacenters. ">
-                             We've launched two dozen in the last two years - my team provides technical sign off on scan ins, power, locations, and resource records.
+                        <responsibility summary="Hire, coach, mentor, and managed ">
+                             day to day workflow for an agile team of 8 highly skilled full stack software engineers.
                         </responsibility>
                     </responsibilities>
                 </jobDescription>
                 <jobDescription>
-                    <title>Previous: Software Engineer III, Software Engineer II</title>
+                    <title>Previous: Advisory Software Engineer, Software Engineer III, Software Engineer II</title>
                     <responsibilities>
-                        <responsibility summary="Reduced server provision times">
-                            by 78% (<a href="https://www.softlayer.com/press/release/2562/softlayer-introduces-new-hourly-bare-metal-servers-deployed-in-minutes">Press Release</a>) - Development Champion, Technical Lead.
-                        </responsibility>
                     </responsibilities>
                 </jobDescription>
             </jobDescriptions>
         </experience>
         <experience>
             <employer>
-                <name>SpeedFC</name>
+                <name>SpeedCommerce</name>
                 <address>
                     <city>Dallas</city>
                     <state>TX</state>
@@ -223,13 +221,14 @@
             <endDate>2011-04-15</endDate>
             <jobDescriptions>
                 <jobDescription>
-                    <title>Senior PHP Developer</title>
+                    <title>Senior Developer</title>
                     <responsibilities>
-                        <responsibility summary="Onboarded">
-                            Spencers Gifts, Dress Barn, Anchor Blue, and Foundry - Technical Lead, Data Integrations.
+                        <responsibility summary="Automated imports of millions of products">
+                            from JC Penny, Spencers Gifts, Dress Barn, and Anchor Blue. Worked with external teams in order to onboard new clients and set up xml data integrations.
                         </responsibility>
-                        <responsibility summary="Created pick scheduler">
-                             - Technical Lead.
+                        <responsibility summary="Created pick scheduler.">
+                            Augmented code for a live large warehouse environment in order to allow scheduled
+                            product picks.
                         </responsibility>
                     </responsibilities>
                 </jobDescription>
@@ -243,20 +242,23 @@
                     <state>TX</state>
                 </address>
             </employer>
-            <startDate>2007-01-01</startDate>
+            <startDate>2006-06-01</startDate>
             <endDate>2009-01-01</endDate>
             <jobDescriptions>
                 <jobDescription>
                     <title>CTO / CoFounder</title>
                     <responsibilities>
-                        <responsibility summary="Built search engine">
-                             for residential property data.
+                        <responsibility summary="Helped secure over 1m">
+                            angel and first round investment from multiple investors.
                         </responsibility>
-                        <responsibility summary="Architected interactive map">
-                             for viewing and searching MLS listings.
+                        <responsibility summary="Built a functional prototype product">
+                            a real estate search engine with interactive map for viewing and searching residential property listings and comparables engine.
                         </responsibility>
-                        <responsibility summary="Managed">
-                             7 developers.
+                        <responsibility summary="Lead 7 Software Engineers">
+                             in order to build out and augment platform.
+                        </responsibility>
+                        <responsibility summary="Created data ingegrations">
+                             with NTreis, Microsoft, Google
                         </responsibility>
                     </responsibilities>
                 </jobDescription>
@@ -271,16 +273,16 @@
                 </address>
             </employer>
             <startDate>2002-01-01</startDate>
-            <endDate>2007-01-01</endDate>
+            <endDate>2006-12-31</endDate>
             <jobDescriptions>
                 <jobDescription>
                     <title>Internet Technology / Internet Marketing Manager</title>
                     <responsibilities>
-                        <responsibility summary="Oversaw">
-                            internet technology and marketing; programming, server administration, web marketing, print marketing, and general IT support.
+                        <responsibility summary="Oversaw internet technology and marketing">
+                            programming, server administration, web marketing, print marketing, and general IT support.
                         </responsibility>
-                        <responsibility summary="Increased">
-                            website sales from $1.2M to $4M per year.
+                        <responsibility summary="Increased web sales 350%">
+                            to approx $4M per year.
                         </responsibility>
                         <responsibility summary="Employee of the month">
                             September 2006.
@@ -309,7 +311,17 @@
     </education>
 
     <publications>
-        <publication type="Speaking Engagements">
+        <publication type="Patent">
+            <name>Methods for Locating a Server via Visual and/or Audio Signaling</name>
+            <startDate>TBD</startDate>
+            <role>inventor</role>
+        </publication>
+        <publication type="Publication">
+            <name>Method and System for Pre-Provision Testing of Hardware</name>
+            <startDate>2015-07-30</startDate>
+            <role>inventor</role>
+        </publication>
+        <publication type="Speaking Engagement">
             <name>HipHop and Hack: PHP for Real World Applications</name>
             <venue>Lone Star PHP</venue>
             <startDate>2015-04-17</startDate>
@@ -317,5 +329,14 @@
             <role>coauthor</role>
             <role>copresenter</role>
         </publication>
+        <publication type="Publication">
+            <name>Very Casual Fridays</name>
+            <venue>SoftLayer Blog</venue>
+            <url>http://blog.softlayer.com/2012/very-casual-fridays</url>
+            <startDate>2012-03-30</startDate>
+            <role>author</role>
+        </publication>
+
+
     </publications>
 </resume>

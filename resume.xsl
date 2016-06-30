@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="html"
+<xsl:output method="xhtml"
     indent="yes"
     version="4.0"
 />
@@ -17,19 +17,20 @@
                     <h1 id="candidate"><xsl:value-of select="name"/></h1>
 
                     <div id="contact">
-                        <xsl:copy-of select="phone"/><br/>
-                        <xsl:copy-of select="email"/>
-                    </div>
-
-                    <div id="links">
-                        <xsl:copy-of select="website"/><br/>
-                        <xsl:copy-of select="github"/><br/>
-                        <xsl:copy-of select="stackoverflow"/>
+                        <xsl:value-of select="phone"/><br/>
+                        <xsl:value-of select="email"/>
                     </div>
 
                     <div id="address">
-                        <xsl:value-of select="address/street"/>
+                        <xsl:value-of select="address/street"/><br/>
                         <xsl:value-of select="address/city"/>, <xsl:value-of select="address/state"/>. <xsl:value-of select="address/zip"/>
+                    </div>
+
+                    <div id="links">
+                        <xsl:copy-of select="website/*"/> |
+                        <xsl:copy-of select="stackoverflow/*"/> |
+                        <xsl:copy-of select="hackerrank/*"/> |
+                        <xsl:copy-of select="github/*"/>
                     </div>
 
                 </div>
@@ -41,15 +42,6 @@
                         </xsl:for-each>
                     </div>
 
-                    <div id="skills" class="section inline_list">
-                        <h2><span>Skills</span></h2>
-                        <ul>
-                            <xsl:for-each select="skills/group">
-                                <xsl:call-template name="unsortedListRecursive"/>
-                            </xsl:for-each>
-                        </ul>
-                    </div>
-
                     <div id="experience" class="section">
                         <h2><span>Experience</span></h2>
                         <xsl:for-each select="experiences/experience">
@@ -57,6 +49,7 @@
                                 <div class="header">
                                     <h3>
                                         <xsl:value-of select="employer/name"/>
+
                                         <xsl:if test="employer/address">
                                             <span class="location"><xsl:value-of select="employer/address/city"/>, <xsl:value-of select="employer/address/state"/></span>
                                         </xsl:if>
@@ -129,8 +122,17 @@
                         </xsl:for-each>
                     </div>
 
+                    <div id="skills" class="section inline_list">
+                        <h2><span>Skills</span></h2>
+                        <ul>
+                            <xsl:for-each select="skills/group">
+                                <xsl:call-template name="unsortedListRecursive"/>
+                            </xsl:for-each>
+                        </ul>
+                    </div>
+
                     <div id="publications" class="section inline_list">
-                        <h2><span>Publications</span></h2>
+                        <h2><span>Patents Publications</span></h2>
                         <xsl:for-each select="publications/publication">
                             <div>
                                 <h3>
@@ -217,7 +219,6 @@
             <xsl:if test="@name">
                 <xsl:value-of select="@name"/>
             </xsl:if>
-
             <xsl:choose>
                 <xsl:when test="*">
                     <ul>
