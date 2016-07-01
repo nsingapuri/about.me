@@ -433,6 +433,10 @@ h6 {
         margin: .25in;
     }
 
+    .noPrint {
+        display: none;
+    }
+
     body {
         max-width: 8.27in;
     }
@@ -443,7 +447,7 @@ h6 {
 
     html {
         margin: 0;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .section > ul:first-of-type > li:first-of-type > ul > li {
@@ -458,14 +462,18 @@ h6 {
         top: 0px;
     }
 
-    #content a[href^="http://"] {
-        color: #666;
-        text-decoration : none;
+    #content a[href^="http://"],
+    #content a[href^="https://"] {
+        color: #000;
+        text-decoration: none;
     }
 
     #content a[href^="http://"]:after,
     #content a[href^="https://"]:after {
-        content: ": " attr(href);
+        content: attr(href);
+        color: #00E;
+        text-decoration: underline;
+        margin-left: .25em;
     }
 
     #objective,

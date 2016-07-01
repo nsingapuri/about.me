@@ -27,10 +27,12 @@
                     </div>
 
                     <div id="links">
-                        <xsl:copy-of select="website/*"/> |
-                        <xsl:copy-of select="stackoverflow/*"/> |
-                        <xsl:copy-of select="hackerrank/*"/> |
-                        <xsl:copy-of select="github/*"/>
+                        <xsl:copy-of select="website/*"/>
+                        <span class="noPrint">
+                        | <xsl:copy-of select="hackerrank/*"/>
+                        | <xsl:copy-of select="stackoverflow/*"/>
+                        | <xsl:copy-of select="github/*"/>
+                        </span>
                     </div>
 
                 </div>
@@ -146,7 +148,7 @@
                                 </h4>
                                 <ul id="urls">
                                     <xsl:for-each select="url">
-                                        <xsl:call-template name="unsortedListRecursive"/>
+                                        <xsl:copy-of select="."/>
                                     </xsl:for-each>
                                 </ul>
                                 <ul id="roles">
