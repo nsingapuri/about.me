@@ -112,12 +112,12 @@ h6 {
     display: block;
     position: absolute;
     top: 2em;
-    right: 2em;
-    width: 150px;
-    text-align: right;
+    right: 1.5em;
+    width: 8em;
+    text-align: center;
 
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 66%;
+    line-height: 150%;
     color: #BBB;
 }
 
@@ -154,10 +154,11 @@ h6 {
     margin: .5em 0 0 0;
     padding: 0;
 }
+
 #experience ul li:before {
     content: "• ";
     color: #666;
-    font-size: 20px;
+    font-size: 120%;
 }
 
 #content > div {
@@ -447,7 +448,7 @@ h6 {
 
     html {
         margin: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .section > ul:first-of-type > li:first-of-type > ul > li {
