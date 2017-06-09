@@ -177,6 +177,41 @@
     <experiences>
         <experience>
             <employer>
+                <name>RealPage Inc.</name>
+                <address>
+                    <street>2201 Lakeside Blvd</street>
+                    <city>Richardson</city>
+                    <state>TX</state>
+                    <zip>75082</zip>
+                </address>
+            </employer>
+            <startDate>2017-01-03</startDate>
+            <endDate/>
+            <jobDescriptions>
+                <jobDescription>
+                    <title>Senior Manager - Software Engineering [Active Building]</title>
+                    <responsibilities>
+                        <responsibility summary="Managed, mentored, coached and hired over a dozen">
+                             UI, backend, and full stack software engineers as direct reports.
+                             Directed 4 teams including ActiveBuilding legacy web portal team, ActiveBuilding new team, ActiveBuilding hybrid / iphone / android app teams, and Egg Package Locker hardware products. Served as a dotted line paper manager for IOT resources.
+                        </responsibility>
+                        <responsibility summary="Delivered on key products and initutives">
+                             including complex infrastructure migrations involving several dozen hosts, error reduction intuitive, and single sign on.
+                        </responsibility>
+                        <responsibility summary="Owned web properties with over one million active users.">
+                             and several thousand corporate clients.
+                        </responsibility>
+                    </responsibilities>
+                </jobDescription>
+                <jobDescription>
+                    <title>Previous: Software Engineer IV</title>
+                    <responsibilities>
+                    </responsibilities>
+                </jobDescription>
+            </jobDescriptions>
+        </experience>
+        <experience>
+            <employer>
                 <name>SoftLayer / IBM</name>
                 <address>
                     <street>4849 Alpha Rd</street>
@@ -186,7 +221,7 @@
                 </address>
             </employer>
             <startDate>2011-04-18</startDate>
-            <endDate/>
+            <endDate>2017-01-03</endDate>
             <jobDescriptions>
                 <jobDescription>
                     <title>Lead Software Engineer [Compute - Inventory/Operations]</title>
@@ -197,8 +232,8 @@
                         <responsibility summary="Launched thirty-seven datacenters.">
                              I own the API endpoints and interfaces that track vendor orders, ship hardware across the world, scan it into racks, power it on, and make it ready for sale. My team provides technical sign-off around these processes for DC launches.
                         </responsibility>
-                        <responsibility summary="Hire, coach, mentor, and managed ">
-                             day to day workflow for an agile team of 8 highly skilled full stack software engineers.
+                        <responsibility summary="Hire, coach, mentor">
+                             and served as a functional manager for an agile team of 8 highly skilled full stack software engineers.
                         </responsibility>
                     </responsibilities>
                 </jobDescription>
