@@ -177,6 +177,35 @@
     <experiences>
         <experience>
             <employer>
+                <name>BoneNE Artifacts</name>
+                <address>
+                    <street>7113 San Pedro Ave.</street>
+                    <city>San Antonio</city>
+                    <state>TX</state>
+                    <zip>75216</zip>
+                </address>
+            </employer>
+            <startDate>2019-01-01</startDate>
+            <endDate/>
+            <jobDescriptions>
+                <jobDescription>
+                    <title>Founder &nbsp; CEO</title>
+                    <responsibilities>
+                        <responsibility summary="Built and grew a profitable small business">
+                             featuring artwork and jewelry manufactured on demand.
+                        </responsibility>
+                        <responsibility summary="Leveraged software and operations expertise">
+                             to 3d print wax resin in house and manufacture pieces externally.
+                        </responsibility>
+                        <responsibility summary="Utilized marketing and sales experience">
+                             in order to grow website traffic, create a large and engaged social media audience, and onboard wholesale customers such as the San Antonio Museum of Art.
+                        </responsibility>
+                    </responsibilities>
+                </jobDescription>
+            </jobDescriptions>
+        </experience>
+        <experience>
+            <employer>
                 <name>RealPage Inc.</name>
                 <address>
                     <street>2201 Lakeside Blvd</street>
@@ -186,7 +215,7 @@
                 </address>
             </employer>
             <startDate>2017-01-03</startDate>
-            <endDate/>
+            <endDate>2018-12-31</endDate>
             <jobDescriptions>
                 <jobDescription>
                     <title>Senior Manager - Software Engineering [Active Building]</title>
